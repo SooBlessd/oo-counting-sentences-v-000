@@ -17,7 +17,7 @@ class String
   end
 
   def count_sentences
-    self.split(/[.?!]/)
+    self.split(/[.?!]/) {|x| x.empty?}.size
     
   end
 end
