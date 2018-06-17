@@ -3,13 +3,13 @@ require 'pry'
 class String
 
   def sentence?
-    @string = string
-    if "#{string}".end_with?(".") == true
-      return true
-    else 
-      return false
-    end
-  end
+  #   @string = string
+  #   if "#{string}".end_with?(".") == true
+  #     return true
+  #   else 
+  #     return false
+  #   end
+  # end
 
   def question?
 
