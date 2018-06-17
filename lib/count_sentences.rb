@@ -3,6 +3,7 @@ require 'pry'
 class String
 
   def sentence?
+    self.end_with?(.) = true
   #   @string = string
   #   if "#{string}".end_with?(".") == true
   #     return true
