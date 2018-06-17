@@ -4,6 +4,7 @@ class String
 
   def sentence?
     self.end_with?(".") = true
+  end
   #   @string = string
   #   if "#{string}".end_with?(".") == true
   #     return true
